@@ -1,0 +1,6 @@
+-- Sprint 1
+-- Database Creation
+
+CREATE DATABASE IF NOT EXISTS student_management;
+
+USE student_management;
