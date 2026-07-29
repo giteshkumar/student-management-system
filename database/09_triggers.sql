@@ -1,0 +1,7 @@
+CREATE TABLE Student_Audit
+(
+audit_id INT AUTO_INCREMENT PRIMARY KEY,
+student_id INT,
+action VARCHAR(50),
+action_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
